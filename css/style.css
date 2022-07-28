@@ -82,7 +82,7 @@ header {
     right: 100px;
     background-color: white;
     text-align: left;
-    padding: 0 25px;
+    /*padding: 0 25px;*/
     width: 405px;
     height: 729px;
     border-radius: 12px;
@@ -116,6 +116,11 @@ header {
   padding-left: 35px;
 }
 
+#formulario .espacamentoform{
+  padding: 0 25px;
+
+}
+
 #formulario #nome {
   background-image: url(../image/user.png);
   background-repeat: no-repeat;
@@ -138,6 +143,28 @@ header {
   background-position: left;
   background-size: 15px;
   background-position-x: 10px;
+}
+
+#formulario #conhecimentopro{
+  background-color: #1a7fbd;
+  margin-top: 22px;
+  color: white;
+  padding: 25px;
+}
+
+#conhecimentolabel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /*margin-bottom: 17px;*/
+  /*padding-bottom: 17px;*/
+}
+
+#checkconhecimento{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #formulariobanner button{
