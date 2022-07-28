@@ -112,6 +112,32 @@ header {
   height: 40px;
   border: 1px solid #CECECE;
   border-radius: 6px;
+  margin-bottom: 10px;
+  padding-left: 35px;
+}
+
+#formulario #nome {
+  background-image: url(../image/user.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 15px;
+  background-position-x: 10px;
+}
+
+#formulario #email {
+  background-image: url(../image/mail.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 15px;
+  background-position-x: 10px;
+}
+
+#formulario #estado {
+  background-image: url(../image/state.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 15px;
+  background-position-x: 10px;
 }
 
 #formulariobanner button{
