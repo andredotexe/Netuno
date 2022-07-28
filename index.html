@@ -40,7 +40,12 @@
                             <p>Preencha seus dados</p>
                             <div><input type="text" placeholder="Nome completo*" id="nome" name="nome" class="input-forma" required></div>
                             <div><input type="email" placeholder="E-mail*" id="email" name="email" class="input-forma" required></div>
-                            <div><input type="text" placeholder="Estado*" id="estado" name="estado" class="input-forma" required></div>
+                            <div>
+                                <select type="text" id="estado" name="estado" class="input-forma" required>
+                                    <option value="0">Estado*</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="MG">Minas Gerais</option></select>
+                            </div>
                         </div>
                             
                         <div id="conhecimentopro">
@@ -62,14 +67,20 @@
                                 </div>
                                 
                         </div>
-                            
-                            <div><label>Já trabalhou com desenvolvimento?</label></div>
-                            <div><input type="checkbox">Sim</div>
-                            <div><input type="checkbox">Não</div>
-                            <hr>
-                            <p>(*) Campos obrigatórios</p>
-                            <button>Enviar</button>
-                            <p>Ao clicar em enviar, você concorda com todos os termos de uso de dados descitos em política de privacidade</p>
+                            <div class="espacamentoform">
+                                <div><p>Já trabalhou com desenvolvimento?</p></div>
+                                <div id="simenao"><div><input type="checkbox">Sim</div>
+                                <div><input type="checkbox">Não</div></div>
+                                
+                            </div>
+
+                            <hr id="linhaform">
+
+                            <div class="espacamentoform">
+                                <p id="camposobri">(*) Campos obrigatórios</p>
+                                <button>Enviar</button>
+                                <p id="termos">Ao clicar em enviar, você concorda com todos os termos de uso de dados descitos em política de privacidade</p>
+                            </div>
                     </form>
                 </div>
         </section>
