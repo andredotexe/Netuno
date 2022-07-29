@@ -246,3 +246,49 @@ header {
   color: #FFFFFF;
   
 }
+
+#oproblema{
+ /* display: flex;*/
+  height: 728px
+  
+}
+
+#imgmulher{
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 19px;
+  width: 40%;
+}
+
+#oproblema h2{
+  position: absolute;
+  left: 807px;
+  top: 1783px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+#bloco1{
+  position: absolute;
+  width: 393px;
+  height: 66px;
+  left: 807px;
+  top: 1867px;
+}
+
+#oproblema hr{
+  position: absolute;
+  width: 407px;
+  height: 0px;
+  left: 808px;
+  top: 1945px;
+}
+
+#bloco2{
+  position: absolute !important;
+  width: 393px;
+  height: 133px;
+  left: 807px;
+  top: 1972px;
+}
