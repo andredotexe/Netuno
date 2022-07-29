@@ -562,4 +562,19 @@ footer{
 #linharodape{
   height: 121px;
   color: white;
+  border: 1px solid #424242;
+  transform: rotate(180deg);
+}
+
+#direitos{
+  color: white;
+  font-size: 9px;
+}
+
+.redes-sociais{
+  margin-top: 17px;
+  margin-bottom: 17px;
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
 }
