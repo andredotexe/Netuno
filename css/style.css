@@ -391,6 +391,7 @@ header {
   align-content: center;
   justify-content: center;
   align-items: center;
+  
 }
 
 .blocosuajornada{
@@ -402,6 +403,11 @@ header {
   background: #1A7FBD;
   border: none;
   border-radius: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 0.5em black;
+  
 }
 
 .blocosuajornada p{
