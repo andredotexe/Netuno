@@ -248,7 +248,6 @@ header {
 }
 
 #oproblema{
- /* display: flex;*/
   height: 728px
   
 }
@@ -260,13 +259,14 @@ header {
   width: 40%;
 }
 
-#oproblema h2{
+#oproblema #tituloproblema{
   position: absolute;
   left: 807px;
   top: 1783px;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
+  background: linear-gradient(87.58deg, #1A7FBD 1.01%, #6CBFF2 100.21%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;
 }
 
 #bloco1{
@@ -286,9 +286,13 @@ header {
 }
 
 #bloco2{
-  position: absolute !important;
+  position: absolute;
   width: 393px;
   height: 133px;
   left: 807px;
   top: 1972px;
+}
+
+#blocosproblema{
+  display: flex;
 }
