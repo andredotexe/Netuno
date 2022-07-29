@@ -209,3 +209,40 @@ header {
   color: white;
   border: none;
 }
+
+#oprojeto{
+  display: flex;
+}
+
+#imgjanelas{
+  position: absolute;
+  margin-top: 1000px;
+  width: 45%;
+  left: 180px;
+}
+
+#textoprojeto{
+  
+  position: absolute;
+  margin-top: 1000px;
+  left: 811px;
+  right: 225px;
+
+}
+
+#textoprojeto h2{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #A4DCFF;
+  
+}
+
+#textoprojeto p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  
+}
