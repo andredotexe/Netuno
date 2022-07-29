@@ -425,3 +425,25 @@ header {
   top: 15px;
   bottom: 20px;
 }
+
+#botaocadastrar{
+  position: relative;
+  background: #000000;
+  border-radius: 12px;
+  width: 459px;
+  height: 70px;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 430px;
+  margin-top: 114px;
+}
+
+#linhabotao{
+  display: flex;
+}
+
+#linhasj{
+  position: relative;
+  margin-left: 550px;
+  margin-top: 18px;
+}
