@@ -324,7 +324,9 @@ header {
   background: #FBFBFB;
   margin-left: 223px;
   margin-top: 650px;
-  /*margin-right: 890px;*/
+  padding: 18px;
+  box-shadow: 0 0 1em black;
+  margin-right: 10px;
 }
 
 #comunidade{
@@ -334,6 +336,10 @@ header {
   border-radius: 12px;
   background: #FBFBFB;
   margin-top: 650px;
+  padding: 18px;
+  box-shadow: 0 0 1em black;
+  margin-right: 10px;
+
 }
 
 #experienciareal {
@@ -344,4 +350,7 @@ header {
   background: #FBFBFB;
   margin-top: 650px;
   margin-right: 224px;
+  padding: 18px;
+  box-shadow: 0 0 1em black;
+
 }
