@@ -248,7 +248,7 @@ header {
 }
 
 #oproblema{
-  height: 1000px
+  height: 970px
   
 }
 
@@ -365,7 +365,6 @@ header {
 }
 
 #titulojornada{
-  /*position: relative;*/
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -383,4 +382,39 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.blocosuajornada{
+  box-sizing: border-box;
+  width: 320px;
+  height: 77px;
+  left: 224px;
+  top: 2745px;
+  background: #1A7FBD;
+  border: none;
+  border-radius: 12px;
+}
+
+.blocosuajornada p{
+  position: relative;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-left: 86px;
+  margin-right: 31px;
+  margin-bottom: 21px;
+  margin-top: -36px;
+}
+
+.blocosuajornada img{
+  position: relative;
+  width: 15%;
+  padding: 10px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-right: 267px;
+  margin-left: 22px;
+  top: 15px;
+  bottom: 20px;
+  /*margin-top: 27px;*/
+  /*margin-bottom: 27px;*/
 }
