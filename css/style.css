@@ -453,3 +453,79 @@ header {
   margin-left: 550px;
   margin-top: 18px;
 }
+
+#objetivos{
+  background: #1A7FBD;
+  height: 505px;
+}
+
+#titulo-objetivo{
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 57px;
+}
+/*Aqui é parte dos blocos do objetivo*/
+#blocosobjetivos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+}
+
+#blocosobjetivos h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#blocosobjetivos p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+#otimizar{
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #E8E8E8;
+  border-radius: 12px;
+  background: #FBFBFB;
+  margin-left: 297px;
+  padding: 18px;
+  box-shadow: 0 0 1em black;
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+}
+
+#gerar{
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #E8E8E8;
+  border-radius: 12px;
+  background: #FBFBFB;
+  padding: 18px;
+  box-shadow: 0 0 1em black;
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+
+}
+
+#filtrar {
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #E8E8E8;
+  border-radius: 12px;
+  background: #FBFBFB;
+  padding: 18px;
+  box-shadow: 0 0 1em black;
+  margin-right: 297px;
+  margin-bottom: 20px;
+
+}
